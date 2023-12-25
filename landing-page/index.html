@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title class="title">{{title}}</title>
+</head>
+
+<body>
+  <secendbody>
+    <header>
+      <nav id="Home">
+        <img src="Images\logo.webp" alt="{{logo}}" width="100em" height="100em">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#ProDet">Prodact Details</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li class="btn flex-row">
+            <a class="btnText1">{{btnText1}}</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="rewievDiv flex-row">
+        <div class="text flex-row">
+          <div>
+            <h1 class="brandName mainTitle">{{mainTitle}}</h1>
+            <h2 class="mainTitle2">{{mainTitle2}}</h2>
+          </div>
+          <div class="image">
+            <div class="descount" data-has="true">
+              <img src="/Images/duscount.png" alt="{{Brand Name with descound}}" width="150em" height="150em">
+              <p>
+                <span class="descountText" style="font-size: xx-large;">{{descountText}}</span><br>
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;OFF
+              </p>
+            </div>
+            <img class="dropWhite filterShadow rewievImg" height="500rem">
+          </div>
+          <p><i class="mainAbout">{{mainAbout}}</i></p>
+          <a class="btn btnText1">{{btnText1}}</a>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="PhotoDiv" id="ProDet">
+        <div class="display">
+          <div class="photo">
+            <div class="firstText"></div>
+            <img class="dropWhite displayImg" height="600em">
+            <div class="secendText">
+              <h1 class="subTitle">{{subTitle}}</h1>
+              <font><b>Price:</b><span class="price">{{price}}</span></font>
+              <p class="subAbout">{{subAbout}}</p>
+              <a class="btn btnText2" style="margin-inline: auto;">{{btnText2}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="options">
+          <div class="text">
+            <h3 class="secendHeader subTitle">{{subTitle}}</h3>
+            <i>
+              <p class="subAbout">{{subAbout}}.</p>
+            </i>
+            <div class="btn">
+              << </div>
+            </div>
+            <div class="optionsPhoto">
+              <!-- options images -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="detailsDiv" id="About">
+        <ul class="cards">
+          <!-- list here -->
+        </ul>
+      </section>
+      <div class="dev"><a class="btn btnText1">{{btnText1}}</a></div>
+    </main>
+    <footer id="Contact">
+      <div class="footer">
+        <div class="row">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube"></i>
+          <i class="fa fa-twitter"></i>
+        </div>
+        <div class="row">
+          <ul>
+            <li>Contact us</li>
+            <li>Our Services</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Career</li>
+          </ul>
+        </div>
+        <div class="row">
+          Copyright © <span id="CopyrightDate"></span> - All rights reserved
+        </div>
+      </div>
+    </footer>
+  </secendbody>
+  <script src="/script/data.js"></script>
+  <script src="/script/script.js"></script>
+
+</body>
+
+</html>
