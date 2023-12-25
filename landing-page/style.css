@@ -118,7 +118,7 @@ table tr td:last-child {
 
 /* header start */
 header {
-  background: url(/Images/bgimg.avif);
+  background: url(./Images/bgimg.avif);
   background-size: cover;
 }
 
@@ -227,7 +227,7 @@ nav a {
   top: 0;
   right: 0;
   left: 0;
-  background: url(/Images/Vector1.svg) no-repeat content-box bottom left;
+  background: url(./Images/Vector1.svg) no-repeat content-box bottom left;
   background-size: contain;
   background-position: -.35em 2em;
 

@@ -10,7 +10,7 @@ const data = {
     btnText2: 'shop now',
     price: '$139.98',
     descountText: '-39%',
-    imgPath: '/Images/',
+    imgPath: './Images/',
     imgs: {
         img0: {
             src: 'img-0_.jpg',
