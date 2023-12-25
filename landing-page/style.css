@@ -479,6 +479,9 @@ h1 {
     color: #ff0000;
     transform: translate(0px, 45px);
   }
+  .card{
+    scale: .7;
+  }
 }
 
 @media screen and (max-width: 700px) {
