@@ -175,7 +175,6 @@ nav a {
 
 .rewievDiv .image {
   margin-inline: auto;
-  transform: skew(355deg);
   position: absolute;
   right: 0;
   top: 0;
