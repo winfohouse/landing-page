@@ -47,4 +47,4 @@ CopyrightDate.innerHTML = new Date().getFullYear()
 
 // set observer wotcher
 Observer.observe(PhotoDiv)
-cards.forEach(card=> Observer.observe(card))
+cards.slice(0,4).forEach(card=> Observer.observe(card))
